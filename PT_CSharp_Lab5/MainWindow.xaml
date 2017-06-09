@@ -1,0 +1,28 @@
+﻿<Window x:Class="PT_CSharp_Lab5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PT_CSharp_Lab5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="N" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="K" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NTextBox" HorizontalAlignment="Left" Height="23" Margin="34,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="KTextBox" HorizontalAlignment="Left" Height="23" Margin="34,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Tasks" HorizontalAlignment="Left" Margin="270,13,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="TasksBtn_Click"/>
+        <Button Content="Delegates" HorizontalAlignment="Left" Margin="270,39,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="DelegatesBtn_Click"/>
+        <Button Content="Async/await" HorizontalAlignment="Left" Margin="270,64,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="AsyncBtn_Click"/>
+        <TextBox x:Name="TasksTextBox" HorizontalAlignment="Left" Height="23" Margin="350,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DelegatesTextBox" HorizontalAlignment="Left" Height="23" Margin="350,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="AsyncTextBox" HorizontalAlignment="Left" Height="23" Margin="350,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Fibonacci" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top"/>
+        <Label Content="i" HorizontalAlignment="Left" Margin="10,127,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="FibITextBox" HorizontalAlignment="Left" Height="23" Margin="28,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"/>
+        <Button Content="Get" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" Width="43" Click="Fib_Click"/>
+        <TextBox x:Name="FibResult" HorizontalAlignment="Left" Height="20" Margin="58,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+        <ProgressBar x:Name="FibProgress" HorizontalAlignment="Left" Height="10" Margin="12,183,0,0" VerticalAlignment="Top" Width="218"/>
+
+    </Grid>
+</Window>
